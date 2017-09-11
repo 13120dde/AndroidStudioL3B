@@ -3,7 +3,7 @@
     android:id="@+id/lvWhatToDo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="a13solutions.androidstudiol3b.ListFragment">
+    tools:context="a13solutions.androidstudiol3b.WhatToDoFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

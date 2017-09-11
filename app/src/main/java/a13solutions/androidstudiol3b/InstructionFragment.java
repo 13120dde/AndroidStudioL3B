@@ -12,12 +12,12 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class InfoFragment extends Fragment {
+public class InstructionFragment extends Fragment {
 
 
     private TextView tvWhatToDo, tvContent;
 
-    public InfoFragment() {
+    public InstructionFragment() {
         // Required empty public constructor
     }
 

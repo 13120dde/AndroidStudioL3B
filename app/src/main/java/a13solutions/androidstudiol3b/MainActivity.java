@@ -6,8 +6,8 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity {
 
-    private ListFragment listFragment;
-    private InfoFragment infoFragment;
+    private WhatToDoFragment listFragment;
+    private InstructionFragment infoFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class MainActivity extends Activity {
 
     private void instantiateController() {
         FragmentManager fm = getFragmentManager();
-        listFragment = (ListFragment) fm.findFragmentById(R.id.fragList);
-        infoFragment = (InfoFragment) fm.findFragmentById(R.id.fragInfo);
+        listFragment = (WhatToDoFragment) fm.findFragmentById(R.id.fragList);
+        infoFragment = (InstructionFragment) fm.findFragmentById(R.id.fragInfo);
         new Controller(listFragment,infoFragment);
     }
 }

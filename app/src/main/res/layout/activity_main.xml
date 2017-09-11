@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragInfo"
-        android:name="a13solutions.androidstudiol3b.InfoFragment"
+        android:name="a13solutions.androidstudiol3b.InstructionFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/fragList"
-        android:name="a13solutions.androidstudiol3b.ListFragment"
+        android:name="a13solutions.androidstudiol3b.WhatToDoFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"

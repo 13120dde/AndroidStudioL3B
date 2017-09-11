@@ -9,11 +9,11 @@ import android.content.res.Resources;
 class Controller {
 
     private Instruction[] instructions = new Instruction[3];
-    private InfoFragment infoFragment;
-    private ListFragment listFragment;
+    private InstructionFragment infoFragment;
+    private WhatToDoFragment listFragment;
 
 
-    public Controller(ListFragment listFragment, InfoFragment infoFragment) {
+    public Controller(WhatToDoFragment listFragment, InstructionFragment infoFragment) {
         this.infoFragment=infoFragment;
         this.listFragment=listFragment;
         this.listFragment.setController(this);

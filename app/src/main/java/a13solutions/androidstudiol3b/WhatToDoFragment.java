@@ -16,14 +16,14 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ListFragment extends Fragment {
+public class WhatToDoFragment extends Fragment {
 
     private Controller controller;
     private ListView list;
     //private String[] content;
     String[] content = new String[3];
 
-    public ListFragment() {
+    public WhatToDoFragment() {
         // Required empty public constructor
     }
 
